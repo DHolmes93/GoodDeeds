@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12ECD68F2C2862FA009D42AF /* GoodDeedsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD68E2C2862FA009D42AF /* GoodDeedsApp.swift */; };
+		12ECD6912C2862FA009D42AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6902C2862FA009D42AF /* ContentView.swift */; };
+		12ECD6932C2862FD009D42AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12ECD6922C2862FD009D42AF /* Assets.xcassets */; };
+		12ECD6962C2862FD009D42AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12ECD6952C2862FD009D42AF /* Preview Assets.xcassets */; };
+		12ECD6A02C2862FE009D42AF /* GoodDeedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD69F2C2862FE009D42AF /* GoodDeedsTests.swift */; };
+		12ECD6AA2C2862FE009D42AF /* GoodDeedsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6A92C2862FE009D42AF /* GoodDeedsUITests.swift */; };
+		12ECD6AC2C2862FE009D42AF /* GoodDeedsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6AB2C2862FE009D42AF /* GoodDeedsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12ECD69C2C2862FE009D42AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12ECD6832C2862FA009D42AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12ECD68A2C2862FA009D42AF;
+			remoteInfo = GoodDeeds;
+		};
+		12ECD6A62C2862FE009D42AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12ECD6832C2862FA009D42AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12ECD68A2C2862FA009D42AF;
+			remoteInfo = GoodDeeds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12ECD68B2C2862FA009D42AF /* GoodDeeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodDeeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12ECD68E2C2862FA009D42AF /* GoodDeedsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedsApp.swift; sourceTree = "<group>"; };
+		12ECD6902C2862FA009D42AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12ECD6922C2862FD009D42AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12ECD6952C2862FD009D42AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12ECD69B2C2862FE009D42AF /* GoodDeedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodDeedsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12ECD69F2C2862FE009D42AF /* GoodDeedsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedsTests.swift; sourceTree = "<group>"; };
+		12ECD6A52C2862FE009D42AF /* GoodDeedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodDeedsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12ECD6A92C2862FE009D42AF /* GoodDeedsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedsUITests.swift; sourceTree = "<group>"; };
+		12ECD6AB2C2862FE009D42AF /* GoodDeedsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12ECD6882C2862FA009D42AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12ECD6982C2862FE009D42AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12ECD6A22C2862FE009D42AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12ECD6822C2862FA009D42AF = {
+			isa = PBXGroup;
+			children = (
+				12ECD68D2C2862FA009D42AF /* GoodDeeds */,
+				12ECD69E2C2862FE009D42AF /* GoodDeedsTests */,
+				12ECD6A82C2862FE009D42AF /* GoodDeedsUITests */,
+				12ECD68C2C2862FA009D42AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12ECD68C2C2862FA009D42AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12ECD68B2C2862FA009D42AF /* GoodDeeds.app */,
+				12ECD69B2C2862FE009D42AF /* GoodDeedsTests.xctest */,
+				12ECD6A52C2862FE009D42AF /* GoodDeedsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12ECD68D2C2862FA009D42AF /* GoodDeeds */ = {
+			isa = PBXGroup;
+			children = (
+				12ECD68E2C2862FA009D42AF /* GoodDeedsApp.swift */,
+				12ECD6902C2862FA009D42AF /* ContentView.swift */,
+				12ECD6922C2862FD009D42AF /* Assets.xcassets */,
+				12ECD6942C2862FD009D42AF /* Preview Content */,
+			);
+			path = GoodDeeds;
+			sourceTree = "<group>";
+		};
+		12ECD6942C2862FD009D42AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12ECD6952C2862FD009D42AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12ECD69E2C2862FE009D42AF /* GoodDeedsTests */ = {
+			isa = PBXGroup;
+			children = (
+				12ECD69F2C2862FE009D42AF /* GoodDeedsTests.swift */,
+			);
+			path = GoodDeedsTests;
+			sourceTree = "<group>";
+		};
+		12ECD6A82C2862FE009D42AF /* GoodDeedsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12ECD6A92C2862FE009D42AF /* GoodDeedsUITests.swift */,
+				12ECD6AB2C2862FE009D42AF /* GoodDeedsUITestsLaunchTests.swift */,
+			);
+			path = GoodDeedsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12ECD68A2C2862FA009D42AF /* GoodDeeds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12ECD6AF2C2862FE009D42AF /* Build configuration list for PBXNativeTarget "GoodDeeds" */;
+			buildPhases = (
+				12ECD6872C2862FA009D42AF /* Sources */,
+				12ECD6882C2862FA009D42AF /* Frameworks */,
+				12ECD6892C2862FA009D42AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodDeeds;
+			productName = GoodDeeds;
+			productReference = 12ECD68B2C2862FA009D42AF /* GoodDeeds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12ECD69A2C2862FE009D42AF /* GoodDeedsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12ECD6B22C2862FE009D42AF /* Build configuration list for PBXNativeTarget "GoodDeedsTests" */;
+			buildPhases = (
+				12ECD6972C2862FE009D42AF /* Sources */,
+				12ECD6982C2862FE009D42AF /* Frameworks */,
+				12ECD6992C2862FE009D42AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12ECD69D2C2862FE009D42AF /* PBXTargetDependency */,
+			);
+			name = GoodDeedsTests;
+			productName = GoodDeedsTests;
+			productReference = 12ECD69B2C2862FE009D42AF /* GoodDeedsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12ECD6A42C2862FE009D42AF /* GoodDeedsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12ECD6B52C2862FE009D42AF /* Build configuration list for PBXNativeTarget "GoodDeedsUITests" */;
+			buildPhases = (
+				12ECD6A12C2862FE009D42AF /* Sources */,
+				12ECD6A22C2862FE009D42AF /* Frameworks */,
+				12ECD6A32C2862FE009D42AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12ECD6A72C2862FE009D42AF /* PBXTargetDependency */,
+			);
+			name = GoodDeedsUITests;
+			productName = GoodDeedsUITests;
+			productReference = 12ECD6A52C2862FE009D42AF /* GoodDeedsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12ECD6832C2862FA009D42AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					12ECD68A2C2862FA009D42AF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					12ECD69A2C2862FE009D42AF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 12ECD68A2C2862FA009D42AF;
+					};
+					12ECD6A42C2862FE009D42AF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 12ECD68A2C2862FA009D42AF;
+					};
+				};
+			};
+			buildConfigurationList = 12ECD6862C2862FA009D42AF /* Build configuration list for PBXProject "GoodDeeds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12ECD6822C2862FA009D42AF;
+			productRefGroup = 12ECD68C2C2862FA009D42AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12ECD68A2C2862FA009D42AF /* GoodDeeds */,
+				12ECD69A2C2862FE009D42AF /* GoodDeedsTests */,
+				12ECD6A42C2862FE009D42AF /* GoodDeedsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12ECD6892C2862FA009D42AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12ECD6962C2862FD009D42AF /* Preview Assets.xcassets in Resources */,
+				12ECD6932C2862FD009D42AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12ECD6992C2862FE009D42AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12ECD6A32C2862FE009D42AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12ECD6872C2862FA009D42AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12ECD6912C2862FA009D42AF /* ContentView.swift in Sources */,
+				12ECD68F2C2862FA009D42AF /* GoodDeedsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12ECD6972C2862FE009D42AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12ECD6A02C2862FE009D42AF /* GoodDeedsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12ECD6A12C2862FE009D42AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12ECD6AA2C2862FE009D42AF /* GoodDeedsUITests.swift in Sources */,
+				12ECD6AC2C2862FE009D42AF /* GoodDeedsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12ECD69D2C2862FE009D42AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12ECD68A2C2862FA009D42AF /* GoodDeeds */;
+			targetProxy = 12ECD69C2C2862FE009D42AF /* PBXContainerItemProxy */;
+		};
+		12ECD6A72C2862FE009D42AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12ECD68A2C2862FA009D42AF /* GoodDeeds */;
+			targetProxy = 12ECD6A62C2862FE009D42AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12ECD6AD2C2862FE009D42AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12ECD6AE2C2862FE009D42AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12ECD6B02C2862FE009D42AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoodDeeds/Preview Content\"";
+				DEVELOPMENT_TEAM = 4AMJ6BWBRV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackinnovators.GoodDeeds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12ECD6B12C2862FE009D42AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoodDeeds/Preview Content\"";
+				DEVELOPMENT_TEAM = 4AMJ6BWBRV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackinnovators.GoodDeeds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12ECD6B32C2862FE009D42AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AMJ6BWBRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackinnovators.GoodDeedsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodDeeds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoodDeeds";
+			};
+			name = Debug;
+		};
+		12ECD6B42C2862FE009D42AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AMJ6BWBRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackinnovators.GoodDeedsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodDeeds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoodDeeds";
+			};
+			name = Release;
+		};
+		12ECD6B62C2862FE009D42AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AMJ6BWBRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackinnovators.GoodDeedsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodDeeds;
+			};
+			name = Debug;
+		};
+		12ECD6B72C2862FE009D42AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4AMJ6BWBRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blackinnovators.GoodDeedsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoodDeeds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12ECD6862C2862FA009D42AF /* Build configuration list for PBXProject "GoodDeeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12ECD6AD2C2862FE009D42AF /* Debug */,
+				12ECD6AE2C2862FE009D42AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12ECD6AF2C2862FE009D42AF /* Build configuration list for PBXNativeTarget "GoodDeeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12ECD6B02C2862FE009D42AF /* Debug */,
+				12ECD6B12C2862FE009D42AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12ECD6B22C2862FE009D42AF /* Build configuration list for PBXNativeTarget "GoodDeedsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12ECD6B32C2862FE009D42AF /* Debug */,
+				12ECD6B42C2862FE009D42AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12ECD6B52C2862FE009D42AF /* Build configuration list for PBXNativeTarget "GoodDeedsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12ECD6B62C2862FE009D42AF /* Debug */,
+				12ECD6B72C2862FE009D42AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12ECD6832C2862FA009D42AF /* Project object */;
+}
