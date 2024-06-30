@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct bottombarnavigator: View {
+struct MainView: View {
     var body: some View {
         TabView {
             HomeScreenView()
@@ -32,5 +32,5 @@ struct bottombarnavigator: View {
 }
 
 #Preview {
-    bottombarnavigator()
+    MainView()
 }

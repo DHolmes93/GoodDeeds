@@ -6,3 +6,19 @@
 //
 
 import Foundation
+import UIKit
+
+
+class ViewControllerFactory:
+    ViewControllerFactoryProtocol {
+    static let shared = ViewControllerFactory()
+    
+    private init() {}
+    
+    func createSignInViewController() -> SignInViewController {
+        return SignInViewController()
+    }
+    func createSignUpViewController() -> SignUpViewController {
+        return SignUpViewController()
+    }
+}

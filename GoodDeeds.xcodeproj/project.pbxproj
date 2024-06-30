@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A5CE6C2C30CD3B00351F35 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5CE6B2C30CD3B00351F35 /* Post.swift */; };
+		12A5CE702C30EEE100351F35 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5CE6F2C30EEE100351F35 /* ImagePicker.swift */; };
+		12A5CE722C30F10900351F35 /* UserAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5CE712C30F10900351F35 /* UserAccountModel.swift */; };
+		12A5CE742C317A2F00351F35 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A5CE732C317A2F00351F35 /* CategoryModel.swift */; };
+		12A5CE762C3181FF00351F35 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 12A5CE752C3181FF00351F35 /* FirebaseFirestoreSwift */; };
+		12A5CE7B2C3189B800351F35 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 12A5CE7A2C3189B800351F35 /* SDWebImageSwiftUI */; };
+		12CF71F92C30A5D900D90E1F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CF71F82C30A5D900D90E1F /* SignUpView.swift */; };
 		12ECD68F2C2862FA009D42AF /* GoodDeedsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD68E2C2862FA009D42AF /* GoodDeedsApp.swift */; };
 		12ECD6912C2862FA009D42AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6902C2862FA009D42AF /* ContentView.swift */; };
 		12ECD6932C2862FD009D42AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12ECD6922C2862FD009D42AF /* Assets.xcassets */; };
@@ -14,6 +21,24 @@
 		12ECD6A02C2862FE009D42AF /* GoodDeedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD69F2C2862FE009D42AF /* GoodDeedsTests.swift */; };
 		12ECD6AA2C2862FE009D42AF /* GoodDeedsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6A92C2862FE009D42AF /* GoodDeedsUITests.swift */; };
 		12ECD6AC2C2862FE009D42AF /* GoodDeedsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6AB2C2862FE009D42AF /* GoodDeedsUITestsLaunchTests.swift */; };
+		12ECD6C22C28C6A7009D42AF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 12ECD6C12C28C6A7009D42AF /* FirebaseAuth */; };
+		12ECD6C42C28C6AB009D42AF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 12ECD6C32C28C6AB009D42AF /* FirebaseFirestore */; };
+		12ECD6C62C28C6B5009D42AF /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 12ECD6C52C28C6B5009D42AF /* FirebaseAnalyticsSwift */; };
+		12ECD6C82C28C6D0009D42AF /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6C72C28C6D0009D42AF /* AuthManager.swift */; };
+		12ECD6CC2C28C8BD009D42AF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6CB2C28C8BD009D42AF /* SignInViewController.swift */; };
+		12ECD6CE2C28E10D009D42AF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6CD2C28E10D009D42AF /* SignUpViewController.swift */; };
+		12ECD6D02C28E7F0009D42AF /* SignInViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6CF2C28E7F0009D42AF /* SignInViewControllerWrapper.swift */; };
+		12ECD6D22C290D4A009D42AF /* ViewControllerFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6D12C290D4A009D42AF /* ViewControllerFactoryProtocol.swift */; };
+		12ECD6D42C290DC3009D42AF /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6D32C290DC3009D42AF /* ViewControllerFactory.swift */; };
+		12ECD6D62C29AE5C009D42AF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 12ECD6D52C29AE5C009D42AF /* FirebaseDatabase */; };
+		12ECD6D82C2C843E009D42AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12ECD6D72C2C843E009D42AF /* GoogleService-Info.plist */; };
+		12ECD6DD2C2C97E6009D42AF /* SignUpViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6DC2C2C97E6009D42AF /* SignUpViewControllerWrapper.swift */; };
+		12ECD6DF2C2C9E22009D42AF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6DE2C2C9E22009D42AF /* MainView.swift */; };
+		12ECD6E12C2C9EBE009D42AF /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6E02C2C9EBE009D42AF /* HomeScreenView.swift */; };
+		12ECD6E32C2C9ED3009D42AF /* SearchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6E22C2C9ED3009D42AF /* SearchScreenView.swift */; };
+		12ECD6E52C2C9EE2009D42AF /* DeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6E42C2C9EE2009D42AF /* DeedsView.swift */; };
+		12ECD6E72C2C9EF6009D42AF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6E62C2C9EF6009D42AF /* AccountView.swift */; };
+		12ECD6E92C2DD0DA009D42AF /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ECD6E82C2DD0D9009D42AF /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A5CE6B2C30CD3B00351F35 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		12A5CE6F2C30EEE100351F35 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		12A5CE712C30F10900351F35 /* UserAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountModel.swift; sourceTree = "<group>"; };
+		12A5CE732C317A2F00351F35 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		12CF71F82C30A5D900D90E1F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		12ECD68B2C2862FA009D42AF /* GoodDeeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodDeeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ECD68E2C2862FA009D42AF /* GoodDeedsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedsApp.swift; sourceTree = "<group>"; };
 		12ECD6902C2862FA009D42AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +74,20 @@
 		12ECD6A52C2862FE009D42AF /* GoodDeedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodDeedsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ECD6A92C2862FE009D42AF /* GoodDeedsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedsUITests.swift; sourceTree = "<group>"; };
 		12ECD6AB2C2862FE009D42AF /* GoodDeedsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDeedsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12ECD6C72C28C6D0009D42AF /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		12ECD6CB2C28C8BD009D42AF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		12ECD6CD2C28E10D009D42AF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		12ECD6CF2C28E7F0009D42AF /* SignInViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewControllerWrapper.swift; sourceTree = "<group>"; };
+		12ECD6D12C290D4A009D42AF /* ViewControllerFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactoryProtocol.swift; sourceTree = "<group>"; };
+		12ECD6D32C290DC3009D42AF /* ViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFactory.swift; sourceTree = "<group>"; };
+		12ECD6D72C2C843E009D42AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		12ECD6DC2C2C97E6009D42AF /* SignUpViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewControllerWrapper.swift; sourceTree = "<group>"; };
+		12ECD6DE2C2C9E22009D42AF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		12ECD6E02C2C9EBE009D42AF /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		12ECD6E22C2C9ED3009D42AF /* SearchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenView.swift; sourceTree = "<group>"; };
+		12ECD6E42C2C9EE2009D42AF /* DeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeedsView.swift; sourceTree = "<group>"; };
+		12ECD6E62C2C9EF6009D42AF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		12ECD6E82C2DD0D9009D42AF /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +95,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A5CE7B2C3189B800351F35 /* SDWebImageSwiftUI in Frameworks */,
+				12A5CE762C3181FF00351F35 /* FirebaseFirestoreSwift in Frameworks */,
+				12ECD6C62C28C6B5009D42AF /* FirebaseAnalyticsSwift in Frameworks */,
+				12ECD6C22C28C6A7009D42AF /* FirebaseAuth in Frameworks */,
+				12ECD6D62C29AE5C009D42AF /* FirebaseDatabase in Frameworks */,
+				12ECD6C42C28C6AB009D42AF /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,7 @@
 				12ECD69E2C2862FE009D42AF /* GoodDeedsTests */,
 				12ECD6A82C2862FE009D42AF /* GoodDeedsUITests */,
 				12ECD68C2C2862FA009D42AF /* Products */,
+				12ECD6C02C28C6A7009D42AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,8 +145,13 @@
 		12ECD68D2C2862FA009D42AF /* GoodDeeds */ = {
 			isa = PBXGroup;
 			children = (
+				12ECD6D92C2C9774009D42AF /* Screens */,
+				12ECD6BB2C287105009D42AF /* components */,
+				12ECD6BA2C2866F7009D42AF /* Account */,
+				12ECD6B82C28636B009D42AF /* Authentication */,
 				12ECD68E2C2862FA009D42AF /* GoodDeedsApp.swift */,
 				12ECD6902C2862FA009D42AF /* ContentView.swift */,
+				12ECD6D72C2C843E009D42AF /* GoogleService-Info.plist */,
 				12ECD6922C2862FD009D42AF /* Assets.xcassets */,
 				12ECD6942C2862FD009D42AF /* Preview Content */,
 			);
@@ -127,6 +183,67 @@
 			path = GoodDeedsUITests;
 			sourceTree = "<group>";
 		};
+		12ECD6B82C28636B009D42AF /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				12ECD6BC2C2898CD009D42AF /* Sign In */,
+				12ECD6C72C28C6D0009D42AF /* AuthManager.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		12ECD6BA2C2866F7009D42AF /* Account */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		12ECD6BB2C287105009D42AF /* components */ = {
+			isa = PBXGroup;
+			children = (
+				12ECD6DE2C2C9E22009D42AF /* MainView.swift */,
+				12A5CE6B2C30CD3B00351F35 /* Post.swift */,
+				12A5CE6F2C30EEE100351F35 /* ImagePicker.swift */,
+				12A5CE712C30F10900351F35 /* UserAccountModel.swift */,
+				12A5CE732C317A2F00351F35 /* CategoryModel.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		12ECD6BC2C2898CD009D42AF /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				12ECD6CB2C28C8BD009D42AF /* SignInViewController.swift */,
+				12ECD6CD2C28E10D009D42AF /* SignUpViewController.swift */,
+				12ECD6CF2C28E7F0009D42AF /* SignInViewControllerWrapper.swift */,
+				12ECD6D12C290D4A009D42AF /* ViewControllerFactoryProtocol.swift */,
+				12ECD6D32C290DC3009D42AF /* ViewControllerFactory.swift */,
+				12ECD6DC2C2C97E6009D42AF /* SignUpViewControllerWrapper.swift */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
+		12ECD6C02C28C6A7009D42AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12ECD6D92C2C9774009D42AF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				12ECD6E02C2C9EBE009D42AF /* HomeScreenView.swift */,
+				12ECD6E22C2C9ED3009D42AF /* SearchScreenView.swift */,
+				12ECD6E42C2C9EE2009D42AF /* DeedsView.swift */,
+				12ECD6E62C2C9EF6009D42AF /* AccountView.swift */,
+				12ECD6E82C2DD0D9009D42AF /* SignInView.swift */,
+				12CF71F82C30A5D900D90E1F /* SignUpView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +260,14 @@
 			dependencies = (
 			);
 			name = GoodDeeds;
+			packageProductDependencies = (
+				12ECD6C12C28C6A7009D42AF /* FirebaseAuth */,
+				12ECD6C32C28C6AB009D42AF /* FirebaseFirestore */,
+				12ECD6C52C28C6B5009D42AF /* FirebaseAnalyticsSwift */,
+				12ECD6D52C29AE5C009D42AF /* FirebaseDatabase */,
+				12A5CE752C3181FF00351F35 /* FirebaseFirestoreSwift */,
+				12A5CE7A2C3189B800351F35 /* SDWebImageSwiftUI */,
+			);
 			productName = GoodDeeds;
 			productReference = 12ECD68B2C2862FA009D42AF /* GoodDeeds.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +340,10 @@
 				Base,
 			);
 			mainGroup = 12ECD6822C2862FA009D42AF;
+			packageReferences = (
+				12ECD6BF2C2899A4009D42AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				12A5CE792C3189B800351F35 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 12ECD68C2C2862FA009D42AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +362,7 @@
 			files = (
 				12ECD6962C2862FD009D42AF /* Preview Assets.xcassets in Resources */,
 				12ECD6932C2862FD009D42AF /* Assets.xcassets in Resources */,
+				12ECD6D82C2C843E009D42AF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +387,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12ECD6CE2C28E10D009D42AF /* SignUpViewController.swift in Sources */,
 				12ECD6912C2862FA009D42AF /* ContentView.swift in Sources */,
+				12ECD6C82C28C6D0009D42AF /* AuthManager.swift in Sources */,
+				12A5CE702C30EEE100351F35 /* ImagePicker.swift in Sources */,
+				12A5CE722C30F10900351F35 /* UserAccountModel.swift in Sources */,
+				12ECD6E12C2C9EBE009D42AF /* HomeScreenView.swift in Sources */,
+				12A5CE6C2C30CD3B00351F35 /* Post.swift in Sources */,
+				12ECD6D42C290DC3009D42AF /* ViewControllerFactory.swift in Sources */,
+				12ECD6DD2C2C97E6009D42AF /* SignUpViewControllerWrapper.swift in Sources */,
 				12ECD68F2C2862FA009D42AF /* GoodDeedsApp.swift in Sources */,
+				12ECD6CC2C28C8BD009D42AF /* SignInViewController.swift in Sources */,
+				12ECD6E52C2C9EE2009D42AF /* DeedsView.swift in Sources */,
+				12ECD6E72C2C9EF6009D42AF /* AccountView.swift in Sources */,
+				12A5CE742C317A2F00351F35 /* CategoryModel.swift in Sources */,
+				12ECD6D02C28E7F0009D42AF /* SignInViewControllerWrapper.swift in Sources */,
+				12CF71F92C30A5D900D90E1F /* SignUpView.swift in Sources */,
+				12ECD6DF2C2C9E22009D42AF /* MainView.swift in Sources */,
+				12ECD6D22C290D4A009D42AF /* ViewControllerFactoryProtocol.swift in Sources */,
+				12ECD6E92C2DD0DA009D42AF /* SignInView.swift in Sources */,
+				12ECD6E32C2C9ED3009D42AF /* SearchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +736,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		12A5CE792C3189B800351F35 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+		12ECD6BF2C2899A4009D42AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12A5CE752C3181FF00351F35 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12ECD6BF2C2899A4009D42AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		12A5CE7A2C3189B800351F35 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12A5CE792C3189B800351F35 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		12ECD6C12C28C6A7009D42AF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12ECD6BF2C2899A4009D42AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		12ECD6C32C28C6AB009D42AF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12ECD6BF2C2899A4009D42AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		12ECD6C52C28C6B5009D42AF /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12ECD6BF2C2899A4009D42AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		12ECD6D52C29AE5C009D42AF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 12ECD6BF2C2899A4009D42AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 12ECD6832C2862FA009D42AF /* Project object */;
 }
